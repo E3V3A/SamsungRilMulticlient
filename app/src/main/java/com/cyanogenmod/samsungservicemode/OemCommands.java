@@ -65,7 +65,7 @@ public class OemCommands {
             DataOutputStream dos = new DataOutputStream(baos);
             dos.writeByte(OEM_SERVM_FUNCTAG);
             dos.writeByte(OEM_SM_ENTER_MODE_MESSAGE);
-            dos.writeShort(7);
+            dos.writeShort(8);
             dos.writeByte(modeType);
             dos.writeByte(subType);
             dos.writeByte(query);
